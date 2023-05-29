@@ -1,7 +1,53 @@
 .App {
   text-align: center;
 }
+.modal {
+  width: 100px;
+  height: 100px;
+}
+.list {
+  margin-left: 120px;
+  margin-top: 50px;
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.modalicon {
+  margin-right: 300px;
+  display: flex;
+
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.addclose {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.modal {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.modal input {
+  width: 100%;
+  margin-bottom: 10px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
